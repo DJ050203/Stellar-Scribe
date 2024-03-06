@@ -1,0 +1,109 @@
+.write {
+    padding-top: 50px;
+  }
+  
+  .writeImg {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .writeForm {
+    position: relative;
+  }
+  
+  .writeFormGroup {
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .writeIcon {
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 125, 125);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .writeInput {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+  }
+  
+  .writeInput::placeholder {
+    color: rgb(189, 185, 185);
+    font-weight: 400;
+  }
+  
+  .writeInput:focus {
+    outline-style: none;
+  }
+  
+  .writeText {
+    width: 70vw;
+    height: 100vh;
+    font-family: inherit;
+    font-size: 20px;
+  }
+  
+  .writeSubmit {
+    position: relative;
+    top: 20px;
+    right: 0px;
+    left: 150px;
+    margin-bottom: 5%;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: baseline;
+  }
+
+.editor{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 5px;
+  width: 970px;
+}
+
+.item {
+  width: 937px;
+  margin-left: 150px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  gap: 10px;
+  color:#555;
+}
+.cat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: hsl(210, 92%, 66%);
+}
+
+.label{
+  /* font-weight: 900; */
+  font-size: 17px;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  
+}
