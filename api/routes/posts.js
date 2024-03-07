@@ -2,7 +2,7 @@ const router = require("express").Router();
 const User = require("../models/Users");
 const Post = require("../models/Post");
 const OpenAI = require('openai');
-const openai = new OpenAI({apiKey:'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'});
+const openai = new OpenAI({apiKey:'yourKey'});
 
 
 
